@@ -24,7 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import ex from "./logoEX.png";
-import robotarm from "./roboticarm.png";
+import robotarm from "./robotarm.svg";
 
 export {
   airbnb,
