@@ -4,6 +4,7 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
+    <div>
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
@@ -46,6 +47,37 @@ const Hero = () => {
         <GetStarted />
       </div>
     </section>
+    //EVENT SECTION
+    <section id="events">
+      <span className="text-white text-6xl font-poppins flex justify-center font-semibold">OUR EVENTS</span>
+      <div className="flex flex-col max-w-screen-lg item-center">
+        <div className="flex flex-row my-10 justify-evenly w-full">
+        <div className="flex flex-col bg-white mx-10 h-[420px] w-[380px] rounded-2xl items-center">
+            <span>HACKATHON</span>
+            <button className="flex h-[50px] w-[150px] bg-blue-500 rounded-md border-2  justify-center items-center hover:border-red transition duration-200">REGISTER</button>
+          </div>
+          <div className="flex flex-col bg-white mx-10 h-[420px] w-[380px] rounded-2xl items-center">
+          <span>TRYATHON</span>
+          <button className="flex h-[50px] w-[150px] bg-blue-500 rounded-md border-2  justify-center items-center hover:border-red transition duration-200">REGISTER</button>
+          </div>
+          <div className="flex flex-col bg-white mx-10 h-[420px] w-[380px] rounded-2xl items-center">
+          <span>COMPETITIVE CODING</span>
+          <button className="flex h-[50px] w-[150px] bg-blue-500 rounded-md border-2  justify-center items-center hover:border-red transition duration-200">REGISTER</button>
+          </div>
+        </div>
+        <div className="flex flex-row my-10 justify-evenly w-full">
+        <div className="flex flex-col bg-white mx-10 h-[420px] w-[380px] rounded-2xl items-center">
+        
+          <span>GAMING</span>
+          <button className="flex h-[50px] w-[150px] bg-blue-500 rounded-md border-2  justify-center items-center hover:border-red transition duration-200">REGISTER</button>
+          </div>
+          <div>fasdf</div>
+          <div>fasdf</div>
+
+        </div>
+      </div>
+    </section>
+    </div>
   );
 };
 
